@@ -1,0 +1,10 @@
+1. 求解每个集合中有多少独特的反应。
+2. 变量反应.xlsx 对模型集进行了10-500的取样，里面gap filling反应的数目
+3. ensmeble_rxn.mat 包含了通过data_alignment方法生成的模型集中所有的反应
+4. data_alignment_gap_filled_raction.mat 用于填补gap的反应。
+5. 变量反应.xlsx 取样过程中变量反应出现的数目。
+6. iterative_gap_filling.mat 包含了以6个碳源进行迭代gap填补的结果。
+7. pathway_anatation.mat 代谢途径的注释结果。
+8. pathway_anatation_result.mat 包含了代谢途径的注释以及反应的频率。
+
+
