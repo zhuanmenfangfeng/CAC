@@ -1,0 +1,16 @@
+EX_ca2(e),0,Calcium exchange,EX_cpd00063_e
+EX_cobalt2(e),0,Co2+ exchange,EX_cpd00149_e
+EX_cu2(e),0,Cu2+ exchange,EX_cpd00058_e
+EX_fe2(e),0,Fe2+ exchange,EX_cpd10515_e
+EX_glc(e),0,D-Glucose exchange,EX_cpd00027_e
+EX_k(e),0,K+ exchange,EX_cpd00205_e
+EX_mg2(e),0,Mg exchange,EX_cpd00254_e
+EX_mn2(e),0,Mn2+ exchange,EX_cpd00030_e
+EX_nh4(e),0,Ammonia exchange,EX_cpd19013_e
+EX_ni2(e),0,Ni2+ exchange,EX_cpd00244_e
+EX_o2(e),0.087289603,O2 exchange,EX_cpd00007_e
+EX_pi(e),0,Phosphate exchange,EX_cpd00009_e
+EX_so4(e),0,Sulfate exchange,EX_cpd00048_e
+EX_zn2(e),0,Zinc exchange,EX_cpd00034_e
+EX_BIOTIN,0,EX_BIOTIN,EX_cpd00104_e
+EX_cl,0,EX_cl,EX_cpd00099_e

@@ -1,0 +1,37 @@
+1. 对应关系.xlsx 
+2. Success_universe_model.xls 和 defeat_universe_model.xls分别对应了可以计算FBA和不可以计算FBA的模型 其实根本
+   原因还是有无生物量反应。
+3. Unversal-model.mat 保存了不包含生物质方程的全局模型。
+4. model2017反应注释结果.xls  初始模型反应号码和modelSeed号码之间的对应关系
+5. ModelSEED.xls 包含了全部ModelSEED数据库中的全部反应
+6. Compound细化分解_1.xlsx 里面包含了代谢物的对应关系：
+7. Compound细化分解_2.xlsx 里面代谢物对应关系进行手工精炼，并且包含了目前所有代谢物的对应关系。
+8. waitadd.mat 文件中包含了需要增加至全局模型中的反应
+9. waitaddmet.mat 包含了需要增加至模型中的反应
+10. Unversal-model_icw773metadd_rxnadd.mat 将需要补充的反应补充至了全局模型中
+11. waitrepalce.mat 包含了需要对全局模型进行替换的反应
+12. Unversal-model_icw773metadd_rxnadd_rxnrep.mat 理论上是能够直接运行FBA的全局模型，一会儿调校一下。
+13. ncbi_dataset.zip 记录了基因组数据
+14. plata_thresholded.csv 包含了各种碳源的数据，利用数据
+15. biolog_base_composition.csv 最小培养条件。
+16. 之前记录的iCW773必须打开的交换反应。
+17. 全局模型整合icw773.xls 将icw773整合至全局模型中。
+18. Carbon_source_utilized.m 不同碳源的利用数据。
+19. GCA_000196335.1_ASM19633v1_genomic-all-Reactions.tbl，GCA_000196335.1_ASM19633v1_genomic-Transporter.tbl 根据目标基因组对 反应 和 转运体的预测结果。
+20. recorde_rxn_score.mat 记录了转运体、反应的归一化bit得分。
+21. 22nutrition_init_model.mat 22个矩阵整合在一起
+22. Model_B.mat 上述矩阵增加了二元变量
+23. need_fill_gap.mat 包含了初始模型不能利用，但是实际条件下可以利用的碳源，并且这些碳源全局模型中也可以利用。
+24. ‘全局模型中的block_reaction.xlsx’ 通过FVA分析得知的全局反应中通量不会产生变化的反应。
+25. '全局反应中重复的反应.xlsx' 全局反应中重复的反应，可以尝试删除
+26. 100ensemble.mat 基于缩减后的模型第一次搭建出100个解的模型
+27. '通量不为0的反应.xlsx' 当碳源为0时，菌株仍能生长，问题在于生物素会被利用，把反应通量写出来，看看问题所在。
+28. ‘finall_gap_fill.mat’ 截至20240118确定的要fill的培养条件。
+29. ‘500_ensemble.mat’ 包含了能够满足5中条件的模型。
+30. 'big_matrix_example.mat' 涵盖了一个大矩阵的标准型。
+
+31. 再新建一个函数，用于求解模型集，fastuniversal_construct(用于搭建模型集)
+culture_media_condition.xlsx 和 rxn_score.txt 分别用来表示储存培养条件 和 反应得分.
+
+
+
