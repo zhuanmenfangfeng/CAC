@@ -1,0 +1,10 @@
+
+
+
+1. collapsed_essentiality.mat 经过了三次特征折叠，对应的特征矩阵。 还包含了参数对应的名称。
+2.  _collapsed_essentiality.json 测试调试使用，因为要用不同版本的Python，所以用这个方法衔接不同版本的Python。
+3. collapsed_knockouts.csv 的作用也类似上面
+4. 模拟结果——折叠.xlsx 将折叠后比生长速率矩阵转化为了逻辑矩阵（仅关注敲除对比目标）
+5. 模拟结果——折叠.csv 特征折叠对应的csv文件。
+
+
